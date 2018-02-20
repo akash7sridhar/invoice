@@ -11,7 +11,7 @@ cd invoice
 
 composer install
 
-cp .env.example .env (if windows machine -  copy .env.example .env)
+cp .env.example .env (if windows : use copy instead of cp command)
 
 php artisan key:generate
 
