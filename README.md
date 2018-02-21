@@ -13,8 +13,6 @@ composer install
 
 cp .env.example .env (if windows : use copy instead of cp command)
 
-php artisan key:generate
-
 
 php artisan db:seed
 
